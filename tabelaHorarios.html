@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BO CAIXA SICREDI</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+	<style>
+		table, th, td {
+		  border: 1px solid black;
+		  border-collapse: collapse;
+		}
+</style>
+</head>
+<body>
+	<div id="header">
+		<img src="assets/headerBasic.png">
+	</div>
+
+	<h2 align="center">Gestão de Limites</h2>
+
+	<div id="tabela">
+		<table>
+		  <tr>
+			<th colspan="2">Coperativa</th>
+			<th>Sábado/Domingo/Feriados Nacionais</th>
+		  </tr>
+		  <tr>
+			<td></td>
+			<td><center>Dias Úteis</center></td>
+			<td><center>Dias Não Úteis</center></td>
+		  </tr>
+		  <tr>
+			<td>(Principal) Horario Início: <input type="time" min="9:00" max="18:00" required> Horário Fim: <input type="time" min="9:00" max="18:00" required></td>
+			<td>R$ <input type="text" name="PrinHorarioInicioDin" value="2.000,00"></td>
+			<td rowspan="2">R$ <input type="text" name="PrinDin" value="500,00"></td>
+		  </tr>
+		  <tr>
+			<td>Horário Secundário</td>
+			<td>R$ <input type="text" name="SecHorarioInicioDin" value="800,00"></td>
+		  </tr>
+		  <tr>
+			<td>Saque Noturno (22 às 6)</td>
+			<td>R$ 300,00</td>
+			<td>R$ 300,00</td>
+		  </tr>
+		</table>
+		<br>
+		<div align="right">
+			<button type="button" onclick="" >Salvar</button>
+			<button type="button" onclick="">Editar</button>
+			<button type="button" onclick="">Sair</button>
+		</div>
+	</div>
+
+</body>
+</html>
